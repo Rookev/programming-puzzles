@@ -7,3 +7,5 @@ function sumOfNumbers(numbers) {
 
     return sum;
 }
+
+module.exports = sumOfNumbers;
