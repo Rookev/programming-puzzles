@@ -1,0 +1,23 @@
+{
+  "name": "programming-puzzles",
+  "version": "1.0.0",
+  "description": "Various programming puzzles and algorithms, e.g. LeetCode and similar challenges.",
+  "main": "index.js",
+  "dependencies": {
+    "qunit": "^2.11.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "qunit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rookev/programming-puzzles.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rookev/programming-puzzles/issues"
+  },
+  "homepage": "https://github.com/Rookev/programming-puzzles#readme"
+}
