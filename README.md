@@ -10,9 +10,10 @@ Various programming puzzles and algorithms, e.g. LeetCode and similar challenges
 * Run `npm test`
 
 ## Repository structure
-* Implementations: folder [js](js)
-* Unit tests: folder [test](test)
+* [Implementations: js](js)
+* [Unit tests: test](test)
 
 ## Algorithms
-* [Sum of numbers](js/sum-of-numbers.js)
+* [Sum Of Numbers](js/sum-of-numbers.js)
 * [Checksum](js/checksum.js)
+* [Two Sum](js/two-sum.js)
