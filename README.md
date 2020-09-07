@@ -8,3 +8,11 @@ Various programming puzzles and algorithms, e.g. LeetCode and similar challenges
 ## How to run the tests
 * Clone this repo
 * Run `npm test`
+
+## Repository structure
+* Implementations: folder [js](js)
+* Unit tests: folder [test](test)
+
+## Algorithms
+* [Sum of numbers](js/sum-of-numbers.js)
+* [Checksum](js/checksum.js)
