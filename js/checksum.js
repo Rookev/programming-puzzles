@@ -1,10 +1,15 @@
-function checksum(number) {
+/**
+ * Given an integer num, return its checksum (sum of all digits of that number)
+ * 
+ * @param {*} num The number of which the checksum is returned
+ */
+function checksum(num) {
     let checksum = 0;
 
-    while (number > 0) {
-        checksum += number % 10;
-        number /= 10;
-        number = Math.floor(number);
+    while (num > 0) {
+        checksum += num % 10;
+        num /= 10;
+        num = Math.floor(num);
     }
 
     return checksum;
