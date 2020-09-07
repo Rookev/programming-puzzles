@@ -1,4 +1,4 @@
-const sumOfNumbers = require('../js/sum-of-numbers/sum-of-numbers.js');
+const sumOfNumbers = require('../js/sum-of-numbers.js');
 
 QUnit.module('sum-of-numbers');
 
