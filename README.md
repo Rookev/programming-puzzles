@@ -14,6 +14,8 @@ Various programming puzzles and algorithms, e.g. LeetCode and similar challenges
 * [Unit tests: test](test)
 
 ## Algorithms
-* [Sum Of Numbers](js/sum-of-numbers.js)
-* [Checksum](js/checksum.js)
-* [Two Sum](js/two-sum.js)
+| Algorithm | Implementation | Unit Tests |
+|:-:|:-:|:-:|
+| Sum Of Numbers | [Implementation](js/sum-of-numbers.js) | [Unit Tests](test/sum-of-numbers.js) |
+| Checksum | [Implementation](js/checksum.js) | [Unit Tests](test/checksum.js) |
+| Two Sum | [Implementation](js/two-sum.js) | [Unit Tests](test/two-sum.js) |
