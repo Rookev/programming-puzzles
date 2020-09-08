@@ -4,9 +4,9 @@ const sumOfNumbersForLoop = moduleSumOfNumbers.sumOfNumbersForLoop;
 const sumOfNumbersWhileLoop = moduleSumOfNumbers.sumOfNumbersWhileLoop;
 const sumOfNumbersRecursion = moduleSumOfNumbers.sumOfNumbersRecursion;
 
-QUnit.module('sum-of-numbers');
+QUnit.module('Sum Of Numbers');
 
-QUnit.test('Sum of 1 number', assert => {
+QUnit.test('1 number', assert => {
   var aTestData = [17];
   var nExpected = 17;
 
@@ -14,51 +14,38 @@ QUnit.test('Sum of 1 number', assert => {
   var nActualWhileLoop = sumOfNumbersWhileLoop(aTestData);
   var nActualRecursion = sumOfNumbersRecursion(aTestData);
 
-  assert.equal(nActualForLoop, nExpected, 'For Loop: Sum of 1 number wrong');
-  assert.equal(nActualWhileLoop, nExpected, 'While Loop: Sum of 1 number wrong');
-  assert.equal(nActualRecursion, nExpected, 'Recursion: Sum of 1 number wrong');
+  assert.equal(nActualForLoop, nExpected);
+  assert.equal(nActualWhileLoop, nExpected);
+  assert.equal(nActualRecursion, nExpected);
 });
 
-QUnit.test('Sum of 2 numbers', assert => {
-  var aTestData = [17,13];
+QUnit.test('2 numbers', assert => {
+  var aTestData = [17, 13];
   var nExpected = 30;
 
   var nActualForLoop = sumOfNumbersForLoop(aTestData);
   var nActualWhileLoop = sumOfNumbersWhileLoop(aTestData);
   var nActualRecursion = sumOfNumbersRecursion(aTestData);
 
-  assert.equal(nActualForLoop, nExpected, 'For Loop: Sum of 2 numbers wrong');
-  assert.equal(nActualWhileLoop, nExpected, 'While Loop: Sum of 2 numbers wrong');
-  assert.equal(nActualRecursion, nExpected, 'Recursion: Sum of 1 number wrong');
+  assert.equal(nActualForLoop, nExpected);
+  assert.equal(nActualWhileLoop, nExpected);
+  assert.equal(nActualRecursion, nExpected);
 });
 
-QUnit.test('Sum of 3 numbers', assert => {
-  var aTestData = [1,2,3];
+QUnit.test('3 numbers', assert => {
+  var aTestData = [1, 2, 3];
   var nExpected = 6;
 
   var nActualForLoop = sumOfNumbersForLoop(aTestData);
   var nActualWhileLoop = sumOfNumbersWhileLoop(aTestData);
   var nActualRecursion = sumOfNumbersRecursion(aTestData);
 
-  assert.equal(nActualForLoop, nExpected, 'For Loop: Sum of 3 numbers wrong');
-  assert.equal(nActualWhileLoop, nExpected, 'While Loop: Sum of 3 numbers wrong');
-  assert.equal(nActualRecursion, nExpected, 'Recursion: Sum of 3 numbers wrong');
+  assert.equal(nActualForLoop, nExpected);
+  assert.equal(nActualWhileLoop, nExpected);
+  assert.equal(nActualRecursion, nExpected);
 });
 
-QUnit.test('Sum of no numbers', assert => {
-  var aTestData = [];
-  var nExpected = 0;
-
-  var nActualForLoop = sumOfNumbersForLoop(aTestData);
-  var nActualWhileLoop = sumOfNumbersWhileLoop(aTestData);
-  var nActualRecursion = sumOfNumbersRecursion(aTestData);
-
-  assert.equal(nActualForLoop, nExpected, 'For Loop: Sum of no numbers wrong');
-  assert.equal(nActualWhileLoop, nExpected, 'While Loop: Sum of no numbers wrong');
-  assert.equal(nActualRecursion, nExpected, 'Recursion: Sum of no number wrong');
-});
-
-QUnit.test('Sum of 1 negative number', assert => {
+QUnit.test('1 negative number', assert => {
   var aTestData = [-17];
   var nExpected = -17;
 
@@ -66,12 +53,12 @@ QUnit.test('Sum of 1 negative number', assert => {
   var nActualWhileLoop = sumOfNumbersWhileLoop(aTestData);
   var nActualRecursion = sumOfNumbersRecursion(aTestData);
 
-  assert.equal(nActualForLoop, nExpected, 'For Loop: Sum of 1 negative number wrong');
-  assert.equal(nActualWhileLoop, nExpected, 'While Loop: Sum of 1 negative number wrong');
-  assert.equal(nActualRecursion, nExpected, 'Recursion: Sum of 1 negative number wrong');
+  assert.equal(nActualForLoop, nExpected);
+  assert.equal(nActualWhileLoop, nExpected);
+  assert.equal(nActualRecursion, nExpected);
 });
 
-QUnit.test('Sum of 2 negative numbers', assert => {
+QUnit.test('2 negative numbers', assert => {
   var aTestData = [-17, -13];
   var nExpected = -30;
 
@@ -79,12 +66,25 @@ QUnit.test('Sum of 2 negative numbers', assert => {
   var nActualWhileLoop = sumOfNumbersWhileLoop(aTestData);
   var nActualRecursion = sumOfNumbersRecursion(aTestData);
 
-  assert.equal(nActualForLoop, nExpected, 'For Loop: Sum of 2 negative numbers wrong');
-  assert.equal(nActualWhileLoop, nExpected, 'While Loop: Sum of 2 negative numbers wrong');
-  assert.equal(nActualRecursion, nExpected, 'Recursion: Sum of 2 negative numbers wrong');
+  assert.equal(nActualForLoop, nExpected);
+  assert.equal(nActualWhileLoop, nExpected);
+  assert.equal(nActualRecursion, nExpected);
 });
 
-QUnit.test('Sum of alternating numbers', assert => {
+QUnit.test('No numbers', assert => {
+  var aTestData = [];
+  var nExpected = 0;
+
+  var nActualForLoop = sumOfNumbersForLoop(aTestData);
+  var nActualWhileLoop = sumOfNumbersWhileLoop(aTestData);
+  var nActualRecursion = sumOfNumbersRecursion(aTestData);
+
+  assert.equal(nActualForLoop, nExpected);
+  assert.equal(nActualWhileLoop, nExpected);
+  assert.equal(nActualRecursion, nExpected);
+});
+
+QUnit.test('Alternating numbers', assert => {
   var aTestData = [-17, 17];
   var nExpected = 0;
 
@@ -92,7 +92,7 @@ QUnit.test('Sum of alternating numbers', assert => {
   var nActualWhileLoop = sumOfNumbersWhileLoop(aTestData);
   var nActualRecursion = sumOfNumbersRecursion(aTestData);
 
-  assert.equal(nActualForLoop, nExpected, 'For Loop: Sum of alternating numbers wrong');
-  assert.equal(nActualWhileLoop, nExpected, 'While Loop: Sum of alternating numbers wrong');
-  assert.equal(nActualRecursion, nExpected, 'Recursion: Sum of alternating numbers wrong');
+  assert.equal(nActualForLoop, nExpected);
+  assert.equal(nActualWhileLoop, nExpected);
+  assert.equal(nActualRecursion, nExpected);
 });
