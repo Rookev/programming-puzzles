@@ -27,4 +27,6 @@ function twoSum(nums, target) {
     return resultIndices;
 }
 
-module.exports = twoSum;
+module.exports = {
+    twoSum: twoSum
+};

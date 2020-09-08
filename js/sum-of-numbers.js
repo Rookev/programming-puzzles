@@ -51,5 +51,5 @@ function sumOfNumbersRecursion(nums) {
 module.exports = {
     sumOfNumbersForLoop: sumOfNumbersForLoop,
     sumOfNumbersWhileLoop: sumOfNumbersWhileLoop,
-    sumOfNumbersRecursion: sumOfNumbersRecursion,
+    sumOfNumbersRecursion: sumOfNumbersRecursion
 };

@@ -1,4 +1,5 @@
-const twoSum = require('../js/two-sum.js');
+const moduleTwoSum = require('../js/two-sum.js');
+const twoSum = moduleTwoSum.twoSum;
 
 QUnit.module('two-sum');
 

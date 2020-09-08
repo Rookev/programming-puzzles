@@ -1,8 +1,8 @@
-const sumOfNumbers = require('../js/sum-of-numbers.js');
+const moduleSumOfNumbers = require('../js/sum-of-numbers.js');
 
-const sumOfNumbersForLoop = sumOfNumbers.sumOfNumbersForLoop;
-const sumOfNumbersWhileLoop = sumOfNumbers.sumOfNumbersWhileLoop;
-const sumOfNumbersRecursion = sumOfNumbers.sumOfNumbersRecursion;
+const sumOfNumbersForLoop = moduleSumOfNumbers.sumOfNumbersForLoop;
+const sumOfNumbersWhileLoop = moduleSumOfNumbers.sumOfNumbersWhileLoop;
+const sumOfNumbersRecursion = moduleSumOfNumbers.sumOfNumbersRecursion;
 
 QUnit.module('sum-of-numbers');
 

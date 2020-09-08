@@ -1,4 +1,5 @@
-const checksum = require('../js/checksum.js');
+const moduleChecksum = require('../js/checksum.js');
+const checksum = moduleChecksum.checksum;
 
 QUnit.module('checksum');
 

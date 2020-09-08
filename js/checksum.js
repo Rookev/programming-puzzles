@@ -15,4 +15,6 @@ function checksum(num) {
     return checksum;
 }
 
-module.exports = checksum;
+module.exports = {
+    checksum: checksum
+};
