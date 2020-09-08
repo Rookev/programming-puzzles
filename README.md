@@ -19,3 +19,4 @@ Various programming puzzles and algorithms, e.g. LeetCode and similar challenges
 | Sum Of Numbers | [Implementation](js/sum-of-numbers.js) | [Unit Tests](test/sum-of-numbers.js) |
 | Checksum | [Implementation](js/checksum.js) | [Unit Tests](test/checksum.js) |
 | Two Sum | [Implementation](js/two-sum.js) | [Unit Tests](test/two-sum.js) |
+| Longest Common Prefix | [Implementation](js/longest-common-prefix.js) | [Unit Tests](test/longest-common-prefix.js) |
