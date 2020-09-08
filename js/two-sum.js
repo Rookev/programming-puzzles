@@ -13,15 +13,15 @@ function twoSum(nums, target) {
         const firstElement = nums[i];
 
         // Start second loop on successor of first iterated element (i+1)
-        for (let j = i+1; j < nums.length; j++) {
+        for (let j = i + 1; j < nums.length; j++) {
             const secondElement = nums[j];
-            
+
             if (firstElement + secondElement === target) {
                 resultIndices.push(i);
                 resultIndices.push(j);
             }
         }
-        
+
     }
 
     return resultIndices;
