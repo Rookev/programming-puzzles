@@ -21,3 +21,4 @@ Various programming puzzles and algorithms, e.g. LeetCode and similar. Because t
 | Two Sum | [Implementation](js/two-sum.js) | [Unit Tests](test/two-sum.js) |
 | Longest Common Prefix | [Implementation](js/longest-common-prefix.js) | [Unit Tests](test/longest-common-prefix.js) |
 | Search 2D Matrix | [Implementation](js/search-2d-matrix.js) | [Unit Tests](test/search-2d-matrix.js) |
+| Longest Nonrepeating Substring | [Implementation](js/longest-nonrepeating-substring.js) | [Unit Tests](test/longest-nonrepeating-substring.js) |
