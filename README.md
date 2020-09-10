@@ -22,3 +22,4 @@ Various programming puzzles and algorithms, e.g. LeetCode and similar. Because t
 | Longest Common Prefix | [Implementation](js/longest-common-prefix.js) | [Unit Tests](test/longest-common-prefix.js) |
 | Search 2D Matrix | [Implementation](js/search-2d-matrix.js) | [Unit Tests](test/search-2d-matrix.js) |
 | Longest Nonrepeating Substring | [Implementation](js/longest-nonrepeating-substring.js) | [Unit Tests](test/longest-nonrepeating-substring.js) |
+| Remove Covered Intervals | [Implementation](js/remove-covered-intervals.js) | [Unit Tests](test/remove-covered-intervals.js) |
